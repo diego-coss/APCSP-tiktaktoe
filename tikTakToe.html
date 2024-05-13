@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Author:   Rafael Coss <rdcoss@icloud.com>            -->
+<!-- Language: HTML                                        -->
+<!-- Creation: SUN Mar 31 11:48:02 PDT 2024                -->
+<!-- Filename: CS-tik-Tak-Toe.html                              -->
+<!-- Descr:    Computer Science Final Projects tik tak toe game aere 2 players
+    will take turns tring to make 3 marks in a row on a 3 by 3 grid.
+ -->
+ <html lang="en">
+    <head>
+        <meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tik-Tak-Toe!</title>
+        <!-- Likning the style sheet  -->
+        <link rel="stylesheet" href="tikTakToe.css">
+    </head>
+    <body id="mybody">
+        <!-- Creat a title -->
+        <h1 id="myH1">Tik-Tak-Toe!</h1>
+        <p id = "mainPage">
+            <!-- Create a table with 3 rows and 3 columns -->
+            <table id = "gBoard">
+                <!-- Create the table body -->
+              <tbody id = "myTbody">
+              </tbody>
+            </table> 
+            <button id="startButton">Start Game</button>
+        </p>
+        <center>
+            <!-- Create a box to display the winner and whose turn it is -->
+        <div class="box" id="turn">
+            X starts
+          </div>
+        </center>
+        <!-- Link the JS page to HTML -->
+        <script src="tikTakToe.js"></script>
+    </body>
+    </html>
